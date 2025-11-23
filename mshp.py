@@ -27,9 +27,27 @@
 #
 # print(z + s + c + v, z * s * c * v)
 # 3
-x = int(input())
-s = x // 100 % 10
-c = x // 10 % 10
-v = x % 10
+# x = int(input())
+# s = x // 100 % 10
+# c = x // 10 % 10
+# v = x % 10
+#
+# print(c * 100 + s * 10 + v)
 
-print(c * 100 + s * 10 + v)
+# 09.11.25
+# 1
+# import time
+# a, b, c, d, e = int(input()), int(input()), int(input()), int(input()), int(input())
+#
+# print('Подождите идет расчет...')
+# time.sleep(5)
+# n = a + b + c + d + e
+# print('Ответ:', n)
+
+# 23.11.25
+# 1
+# n = int(input())
+# if n > 5:
+#     print('YES')
+# else:
+#     print('NO')
