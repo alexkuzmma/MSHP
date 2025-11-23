@@ -51,3 +51,57 @@
 #     print('YES')
 # else:
 #     print('NO')
+#
+# 2
+a, b, c = int(input()), int(input()), int(input())
+max = a
+
+if b > max:
+    max = b
+elif c > max:
+    max = c
+
+if c == 9876:
+    print('Максимум равен ', 9876)
+else:
+    print(max)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
