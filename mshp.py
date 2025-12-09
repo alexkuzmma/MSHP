@@ -67,19 +67,30 @@
 #     print(max)
 #
 # 3
-a, b, c = int(input()), int(input()), int(input())
-max = a
+# a, b, c = int(input()), int(input()), int(input())
+# max = a
+#
+# if b > max:
+#     max = b
+# if c > max:
+#     max = c
+#
+# if a + b + c - max < max:
+#     print('успешный ларек')
+# else:
+#     print('слияние двух слабых ларьков')
+n = int(input())
 
-if b > max:
-    max = b
-if c > max:
-    max = c
-
-if a + b + c - max < max:
-    print('успешный ларек')
+if n >= 11 and n <= 14:
+    s = 'korov'
+elif n % 10 == 1:
+    s = 'korova'
+elif n % 10 >= 2 and n % 10 <= 4:
+    s = 'korovy'
 else:
-    print('слияние двух слабых ларьков')
+    s = 'korov'
 
+print(n, s)
 
 
 
