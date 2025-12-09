@@ -79,18 +79,32 @@
 #     print('успешный ларек')
 # else:
 #     print('слияние двух слабых ларьков')
-n = int(input())
-
-if n >= 11 and n <= 14:
-    s = 'korov'
-elif n % 10 == 1:
-    s = 'korova'
-elif n % 10 >= 2 and n % 10 <= 4:
-    s = 'korovy'
-else:
-    s = 'korov'
-
-print(n, s)
+# Homework 09.12.25
+# 1
+# a = int(input())
+#
+# if a == 5:
+#     print('A')
+# elif a == 4:
+#     print('B')
+# elif a == 3:
+#     print('C')
+# elif a == 2:
+#     print('F')
+# 2
+# n = int(input())
+#
+# if n >= 11 and n <= 14:
+#     s = 'korov'
+# elif n % 10 == 1:
+#     s = 'korova'
+# elif n % 10 >= 2 and n % 10 <= 4:
+#     s = 'korovy'
+# else:
+#     s = 'korov'
+#
+# print(n, s)
+#
 
 
 
