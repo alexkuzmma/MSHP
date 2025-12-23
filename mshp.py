@@ -171,24 +171,38 @@
 #
 # Homework
 # 1
-num1, num2, num3, num4 = map(int, input(). split())
-sum = 1
+# num1, num2, num3, num4 = map(int, input(). split())
+# sum = 1
+#
+# if 3 <= num1 <= 9:
+#     sum *= num1
+# if 3 <= num2 <= 9:
+#     sum *= num2
+# if 3 <= num3 <= 9:
+#     sum *= num3
+# if 3 <= num4 <= 9:
+#     sum *= num4
+# if sum == 1:
+#     sum = -1
+#
+# print(sum)
+#
+# 2
+num1, num2, num3, num4, num5 = map(int, input(). split())
+sum = 0
 
-if 3 <= num1 <= 9:
-    sum *= num1
-if 3 <= num2 <= 9:
-    sum *= num2
-if 3 <= num3 <= 9:
-    sum *= num3
-if 3 <= num4 <= 9:
-    sum *= num4
-if sum == 1:
-    sum = -1
+if num1 % 4 == 0:
+    sum += 1
+if num2 % 4 == 0:
+    sum += 1
+if num3 % 4 == 0:
+    sum += 1
+if num4 % 4 == 0:
+    sum += 1
+if num5 % 4 == 0:
+    sum += 1
 
 print(sum)
-
-
-
 
 
 
