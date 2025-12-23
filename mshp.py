@@ -122,42 +122,70 @@
 #     print('Я вас не понимаю')
 #
 # 4 ( SPECIAl )
-n = int(input())
-s = int(input())
-year = n % 10000
-n = n // 10000
-month = n % 100
-day = n // 100
+# n = int(input())
+# s = int(input())
+# year = n % 10000
+# n = n // 10000
+# month = n % 100
+# day = n // 100
+#
+# year1 = s % 10000
+# s = s // 10000
+# month1 = s % 100
+# day1 = s // 100
+#
+# if n == s:
+#     print('В один день')
+# elif year < year1:
+#     print('Соревнование по прыжкам с табуретки')
+# elif year1 < year:
+#     print('Кулинарный фестиваль бутерброда')
+# elif year == year1:
+#     if month < month1:
+#         print('Соревнование по прыжкам с табуретки')
+#     elif month1 < month:
+#         print('Кулинарный фестиваль бутерброда')
+#     elif month == month:
+#         if day < day1:
+#             print('Соревнование по прыжкам с табуретки')
+#         else:
+#             print('Кулинарный фестиваль бутерброда')
+#
+# a, b, c, d, e, h = map(int, input().split())
+# sum = 0
+#
+# if a % 2 == 0 and a % 4 != 0:
+#     sum += 1
+# if b % 2 == 0 and b % 4 != 0:
+#     sum += 1
+# if c % 2 == 0 and c % 4 != 0:
+#     sum += 1
+# if d % 2 == 0 and d % 4 != 0:
+#     sum += 1
+# if e % 2 == 0 and e % 4 != 0:
+#     sum += 1
+# if h % 2 == 0 and h % 4 != 0:
+#     sum += 1
+#
+# print(sum)
+#
+# Homework
+# 1
+num1, num2, num3, num4 = map(int, input(). split())
+sum = 1
 
-year1 = s % 10000
-s = s // 10000
-month1 = s % 100
-day1 = s // 100
+if 3 <= num1 <= 9:
+    sum *= num1
+if 3 <= num2 <= 9:
+    sum *= num2
+if 3 <= num3 <= 9:
+    sum *= num3
+if 3 <= num4 <= 9:
+    sum *= num4
+if sum == 1:
+    sum = -1
 
-if n == s:
-    print('В один день')
-elif year < year1:
-    print('Соревнование по прыжкам с табуретки')
-elif year1 < year:
-    print('Кулинарный фестиваль бутерброда')
-elif year == year1:
-    if month < month1:
-        print('Соревнование по прыжкам с табуретки')
-    elif month1 < month:
-        print('Кулинарный фестиваль бутерброда')
-    elif month == month:
-        if day < day1:
-            print('Соревнование по прыжкам с табуретки')
-        else:
-            print('Кулинарный фестиваль бутерброда')
-
-
-
-
-
-
-
-
+print(sum)
 
 
 
