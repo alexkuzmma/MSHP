@@ -188,22 +188,26 @@
 # print(sum)
 #
 # 2
-num1, num2, num3, num4, num5 = map(int, input(). split())
-sum = 0
-
-if num1 % 4 == 0:
-    sum += 1
-if num2 % 4 == 0:
-    sum += 1
-if num3 % 4 == 0:
-    sum += 1
-if num4 % 4 == 0:
-    sum += 1
-if num5 % 4 == 0:
-    sum += 1
-
-print(sum)
-
+# num1, num2, num3, num4, num5 = map(int, input(). split())
+# sum = 0
+#
+# if num1 % 4 == 0:
+#     sum += 1
+# if num2 % 4 == 0:
+#     sum += 1
+# if num3 % 4 == 0:
+#     sum += 1
+# if num4 % 4 == 0:
+#     sum += 1
+# if num5 % 4 == 0:
+#     sum += 1
+#
+# print(sum)
+#
+# 29.12.2025
+# 1
+n = int(input())
+print('акула') if n > 8 else print('акульчик')
 
 
 
